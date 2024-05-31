@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src/",
+        "paths": {
+           "@routes/*" : ["app/routes/*"],
+           "@components/*": ["presentation/components/*"],
+           "@pages/*": ["presentation/pages/*"],
+           "@utils": ["app/utils"],
+           "@repository": ["data/repositories"],
+           "@data/*": ["data/*"],
+           "@redux/*": ["app/redux/*"],
+           "@entity": ["domain/entities"],
+           "@usecases": ["domain/usecases"],
+           "@presentation/*": ["presentation/*"],
+           "@app/*": ["app/*"],
+           "@domain/*": ["domain/*"]
+         }
+    }
+}

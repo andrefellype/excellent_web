@@ -1,0 +1,2 @@
+export const loadingSelector = (state: any) => state.configurationLoading.loading as { title?: string | null; status: boolean }
+export const loadingTableSelector = (state: any) => state.configurationLoading.loadingTable as { title?: string | null; status: boolean }

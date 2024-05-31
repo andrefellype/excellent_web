@@ -1,0 +1,308 @@
+{
+    "menu": {
+        "access_area": "ÁREA DE ACESSO",
+        "user_list": "USUÁRIOS",
+        "client_list": "CLIENTES",
+        "category_list": "CATEGORIAS",
+        "product_list": "PRODUTOS",
+        "order_list": "PEDIDOS"
+    },
+    "title": {
+        "main": {
+            "access": {
+                "signin": "ÁREA DE ACESSO",
+                "signup": "REGISTRO DE USUÁRIO"
+            }
+        },
+        "user": {
+            "edit_auth": "ALTERAÇÃO DO MEU USUÁRIO",
+            "edit_password_auth": "ALTERAÇÃO DA SENHA DO MEU USUÁRIO",
+            "list": "LISTA DE USUÁRIO",
+            "new": "NOVO USUÁRIO",
+            "show": "DADOS DO USUÁRIO"
+        },
+        "client": {
+            "new": "NOVO CLIENTE",
+            "list": "CLIENTES",
+            "edit": "EDITAR CLIENTE"
+        },
+        "category": {
+            "product": {
+                "list": "LISTA DE CATEGORIAS DE PRODUTO",
+                "new": "NOVA CATEGORIA DE PRODUTO",
+                "edit": "EDITAR CATEGORIA DE PRODUTO"
+            }
+        },
+        "product": {
+            "list": "LISTA DE PRODUTOS",
+            "new": "NOVO PRODUTO",
+            "edit": "EDITAR PRODUTO"
+        },
+        "order": {
+            "list": "LISTA DE PEDIDOS",
+            "new": "NOVO PEDIDO"
+        }
+    },
+    "field": {
+        "main": {
+            "access": {
+                "user_cellphone": "CELULAR",
+                "user_password": "SENHA",
+                "user_name": "NOME",
+                "user_confirm_password": "CONFIRMAÇÃO DE SENHA"
+            }
+        },
+        "user": {
+            "name": "NOME",
+            "cellphone": "CELULAR",
+            "password": "SENHA",
+            "confirm_password": "CONFIRMAÇÃO DE SENHA",
+            "is_admin": "É ADMINISTRADOR"
+        },
+        "client": {
+            "name": "NOME",
+            "cnpj": "CNPJ",
+            "email": "EMAIL"
+        },
+        "category": {
+            "product": {
+                "name": "NOME"
+            }
+        },
+        "product": {
+            "description": "DESCRIÇÃO",
+            "gross_price": "PREÇO BRUTO",
+            "sale_price": "PREÇO DE VENDA"
+        },
+        "order":{
+            "quantity": "QUANTIDADE",
+            "product": "PRODUTO",
+            "client": "CLIENTE"
+        },
+        "facebook": "FACEBOOK",
+        "address": {
+            "code_postal": "CEP",
+            "street": "ENDEREÇO",
+            "number_initial": "N°",
+            "complement_initial": "COMPL.",
+            "district": "BAIRRO",
+            "city": "CIDADE",
+            "state_initial": "UF"
+        }
+    },
+    "button": {
+        "main": {
+            "access": {
+                "signin": "ENTRAR",
+                "signup": "REGISTRO DE USUÁRIO"
+            }
+        },
+        "category": {
+            "remove_icon": "REMOVER ÍCONE"
+        },
+        "facebook": "FACEBOOK",
+        "register": "REGISTRAR",
+        "access_area": "ÁREA DE ACESSO",
+        "saved": "SALVAR",
+        "delete_selecteds": "APAGAR SELECIONADOS",
+        "filter": "FILTRAR",
+        "clean_filter": "LIMPAR FILTRO",
+        "close": "FECHAR",
+        "back": "VOLTAR",
+        "update": "ALTERAR",
+        "remove_photo": "REMOVER FOTO",
+        "remove_logo": "REMOVER LOGO",
+        "delete": "APAGAR",
+        "show_more": "VER MAIS"
+    },
+    "table": {
+        "user": {
+            "name": "NOME",
+            "cellphone": "CELULAR",
+            "created": "CRIADO"
+        },
+        "category": {
+            "product": {
+                "name": "NOME"
+            }
+        },
+        "client": {
+            "name": "NOME",
+            "cnpj": "CNPJ",
+            "created": "CRIADO EM"
+        },
+        "product": {
+            "description": "DESCRIÇÃO"
+        },
+        "order":{
+            "quantity": "QUANTIDADE",
+            "product": "PRODUTO",
+            "client": "CLIENTE"
+        }
+    },
+    "message": {
+        "user": {
+            "access": {
+                "question_logout_system": "Deseja sair do sistema?",
+                "signout_process": "Saindo do sistema...",
+                "signin_process": "Processando login...",
+                "blocked": "Usuário bloqueado."
+            }
+        },
+        "category": {
+            "remove_icon": "DESEJA REMOVER ESSE ÍCONE?"
+        },
+        "list": {
+            "list_empty": "Não possui registro nesta lista."
+        },
+        "processing": {
+            "saved_data": "Salvando dados...",
+            "update_date": "Alterando registro...",
+            "delete_date": "Apagando registro...",
+            "to_ban_date": "Banindo registro...",
+            "send_message": "Enviando mensagem..."
+        },
+        "alert": {
+            "fail_system": "FALHA NO SISTEMA, ENTRE EM CONTATO COM ADMINISTRADOR",
+            "data_invalid": "Dados inválidos.",
+            "register_update_success": "REGISTRO ALTERADO COM SUCESSO.",
+            "register_delete_success": "REGISTRO APAGADO COM SUCESSO.",
+            "register_insert_success": "REGISTRO REALIZADO COM SUCESSO.",
+            "register_ban_success": "REGISTRO BANIDO COM SUCESSO.",
+            "send_link_message_success": "LINK ENVIADO COM SUCESSO.",
+            "location_not_enabled": "LOCALIZAÇÃO NÃO FOI HABILITADA!"
+        },
+        "question": {
+            "delete_register": "Deseja apagar esse registro?",
+            "delete_registers": "Deseja apagar esses registros?",
+            "information_bound": "Existe informação vinculada! Tem certeza que deseja apagar?",
+            "remove_photo": "Deseja remover essa foto?",
+            "remove_logo": "Deseja remover esse logo?",
+            "remove": "Deseja remover?",
+            "to_ban": "DESEJA BANIR?",
+            "update_enabled": "Deseja desbloquear esse registro?",
+            "update_disabled": "Deseja bloquear esse registro?"
+        }
+    },
+    "other": {
+        "loading_datas": "Carregando dados...",
+        "character": "caracter",
+        "characters": "caracteres",
+        "less": "menos",
+        "more": "mais",
+        "not_access": "NÃO ACESSOU",
+        "not_have": "NÃO POSSUI",
+        "yes": "SIM",
+        "not": "NÃO",
+        "dateTime": {
+            "year": "ano",
+            "years": "anos",
+            "month": "mês",
+            "months": "meses",
+            "day": "dia",
+            "days": "dias",
+            "hour": "hora",
+            "hours": "horas",
+            "minute": "minuto",
+            "minutes": "minutos",
+            "second": "segundo",
+            "seconds": "segundos"
+        },
+        "my_position": "MINHA POSIÇÃO",
+        "weeks": {
+            "sunday": "DOMINGO",
+            "monday": "SEGUNDA-FEIRA",
+            "tuesday": "TERÇA-FEIRA",
+            "wednesday": "QUARTA-FEIRA",
+            "thursday": "QUINTA-FEIRA",
+            "friday": "SEXTA-FEIRA",
+            "saturday": "SÁBADO"
+        },
+        "hint_search_name": "BUSCA DO NOME",
+        "above": "acima de",
+        "to": "até",
+        "from": "apartir de",
+        "register": "REGISTRADO",
+        "registers": "REGISTRADOS"
+    },
+    "validation": {
+        "user": {
+            "name": {
+                "not_empty": "O nome é obrigatório."
+            },
+            "cellphone": {
+                "not_empty": "O celular é obrigatório.",
+                "format_invalid": "Formato inválido do celular.",
+                "is_exists": "O celular já existe no nosso banco de dados."
+            },
+            "password": {
+                "not_empty": "A senha é obrigatória.",
+                "not_length_min_and_max_6_15": "A senha tem que ter no mínimo 6 caracteres e no máximo 15."
+            },
+            "password_confirm": {
+                "not_empty": "A confirmação de senha é obrigatória.",
+                "not_confirm_field": "confirmação de senha inválida."
+            }
+        },
+        "client": {
+            "name": {
+                "not_empty": "O nome é obrigatório."
+            },
+            "document_number": {
+                "not_empty": "O cnpj é obrigatório.",
+                "format_invalid": "Formato inválido do cnpj.",
+                "is_exists": "O cnpj já existe no nosso banco de dados."
+            },
+            "email": {
+                "not_empty": "O email é obrigatório.",
+                "format_invalid": "Formato inválido do email."
+            }
+        },
+        "category_product": {
+            "name": {
+                "not_empty": "O nome é obrigatório.",
+                "is_exists": "O nome já existe no nosso banco de dados."
+            }
+        },
+        "product": {
+            "description": {
+                "not_empty": "A descrição é obrigatória.",
+                "is_exists": "A descrição já existe no nosso banco de dados."
+            }
+        },
+        "order": {
+            "quantity": {
+                "not_empty": "A quantitdade é obrigatória."
+            },
+            "product_id": {
+                "not_empty": "O produto é obrigatório."
+            },
+            "client_id": {
+                "not_empty": "O cliente é obrigatório."
+            }
+        },
+        "api": {
+            "not_length_min": "A quantidade mínima de caracteres desse campo é inválido.",
+            "not_length_max": "A quantidade máxima de caracteres desse campo é inválido.",
+            "not_length": "Quantidade de caracter inválido.",
+            "not_length_min_and_max": "A quantidade de caracteres desse campo é inválido.",
+            "diff_date": "{m} {v1} {v2} a {v3} da data em questão.",
+            "not_empty": "O campo é obrigatório.",
+            "format_invalid": "O campo está no formato inválido.",
+            "is_exists": "O campo já existe no nosso banco de dados.",
+            "not_confirm": "As informações dos campos não coincidem.",
+            "token_invalid": "Token inválido.",
+            "under_maintenance": "Em manutenção!",
+            "not_exists": "Essa informação não existe no nosso banco de dados.",
+            "not_validate": "O campo não é válido.",
+            "not_max_day_date": "A data excedeu o máximo de dias exigido.",
+            "not_min_day_date": "A data não atingiu o mínimo de dias exigido.",
+            "not_min_year_date": "A data não atingiu o mínimo de anos exigido.",
+            "not_max_year_date": "A data excedeu o máximo de anos exigido.",
+            "not_min_hour_date": "A data não atingiu o mínimo de horas exigido.",
+            "not_max_hour_date": "A data excedeu o máximo de horas exigido.",
+            "permission_not_validate": "Permissão não é válida.",
+            "format_int_invalid": "O campo não é um inteiro válido."
+        }
+    }
+}
